@@ -22,8 +22,8 @@ export const HeroCard = ({
 
     return (
         <>
-            <div className="col">
-                <div className="card h-100">
+            <div className="col animate__animated animate__fadeIn">
+                <div className="card h-100 " >
                     <img src={heroImageUrl} className="card-img-top" alt={superhero} />
                     <div className="card-body">
                         <h5 className="card-title">{superhero}</h5>
