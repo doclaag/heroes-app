@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <SearchPage /> should be displayed correctly with default values 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Searching
+      </h4>
+      <hr />
+      <form
+        aria-label="form"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Search a hero"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn mt-2 btn-block btn-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <div
+            class="alert alert-primary animate__animated animate__fadeIn"
+          >
+            Search a hero
+          </div>
+          <div
+            aria-label="alert-danger"
+            class="alert alert-danger animate__animated animate__fadeIn"
+            style="display: none;"
+          >
+            No hero with 
+            <b />
+          </div>
+          <div
+            class="row"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test on <SearchPage /> should show Batman and the input with the value of the queryString 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Searching
+      </h4>
+      <hr />
+      <form
+        aria-label="form"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Search a hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          class="btn mt-2 btn-block btn-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <div
+            class="alert alert-primary animate__animated animate__fadeIn"
+            style="display: none;"
+          >
+            Search a hero
+          </div>
+          <div
+            aria-label="alert-danger"
+            class="alert alert-danger animate__animated animate__fadeIn"
+            style="display: none;"
+          >
+            No hero with 
+            <b>
+              batman
+            </b>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-sm-12 col-md-6 col-lg-4"
+            >
+              <div
+                class="col animate__animated animate__fadeIn"
+              >
+                <div
+                  class="card h-100 "
+                >
+                  <img
+                    alt="Batman"
+                    class="card-img-top"
+                    src="/assets/heroes/dc-batman.jpg"
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <h5
+                      class="card-title"
+                    >
+                      Batman
+                    </h5>
+                    <p
+                      class="card-text"
+                    >
+                      Bruce Wayne
+                    </p>
+                    <p
+                      class="card-text"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        Detective Comics #27
+                      </small>
+                    </p>
+                    <p
+                      class="card-text"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        DC Comics
+                      </small>
+                    </p>
+                    <a
+                      href="/hero/dc-batman"
+                    >
+                      Más...
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
